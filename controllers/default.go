@@ -9,7 +9,7 @@ type MainController struct {
 }
 
 func (c *MainController) Get() {
-	c.Data["Criador"] = "Lucas Hokage"
+	c.Data["Website"] = "github.com/luucasrb"
 	c.Data["Email"] = "luucas-rb@hotmail.com"
 	c.TplName = "index.tpl"
 }
