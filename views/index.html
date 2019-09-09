@@ -28,6 +28,7 @@
     }
 
     .logo {
+      background-image: url("../static/img/xiaomi.png");
       background-repeat: no-repeat;
       -webkit-background-size: 100px 100px;
       background-size: 100px 100px;
@@ -74,17 +75,27 @@
 
 <body>
   <header>
-    <h1 class="logo">XIAOMIchat</h1>
+    
+    <div>
+      <h1 class="logo">XIAOMIchat</h1>
+    </div>
     <div class="description">
       XIAOMIchat é um sistema de Chats distribuído, escalável e robusto.
+      <br><br>
+      <a href="chat.html">
+          <button style="width: 100px; height: 30px; font-size: 20px">Acesse</button>
+      </a>
     </div>
   </header>
   <footer>
     <div class="author">
       Repositório:
-      <a href="http://{{.Website}}">{{.Website}}</a> /
+      <a href="github.com/saulopinedo/xiaomi-chat">github.com/saulopinedo/xiaomi-chat</a>
+      <!-- <a href="http://{{.Website}}">{{.Website}}</a> -->
+      /
       Contato:
-      <a class="email" href="mailto:{{.Email}}">{{.Email}}</a>
+      <!-- <a class="email" href="mailto:{{.Email}}">{{.Email}}</a> -->
+      <a class="email" href="mailto:lucasribeiro@furg.br">lucasribeiro@furg.br</a>
     </div>
   </footer>
   <div class="backdrop"></div>
